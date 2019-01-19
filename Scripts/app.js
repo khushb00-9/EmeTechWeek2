@@ -1,9 +1,9 @@
-"use strict";
-// Self-Executing Anonymous Function
-// IIFE - Immmediately Invoked Function Expression
+// IIFE -- Immediately Invoked Function Expression
 (function () {
     function Start() {
-        console.log("%cApp Started... ", "font-size: 20px; color: blue;");
+        var student = new objects.Student(20, "Sarah", "P008490000");
+        student.saysHello();
+        student.studies();
     }
     window.addEventListener("load", Start);
 })();
